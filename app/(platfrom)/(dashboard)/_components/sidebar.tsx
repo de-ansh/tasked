@@ -93,7 +93,9 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
             organization={organization as Organization}
             onExpand={onExpand}
           />
+          
         ))}
+        <Separator />
       </Accordion>
     </>
   );
